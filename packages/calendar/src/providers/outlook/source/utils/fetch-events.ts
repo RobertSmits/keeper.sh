@@ -4,8 +4,8 @@ import type {
   OutlookCalendarEvent,
   OutlookEventsListResponse,
   EventTimeSlot,
-  MicrosoftApiError,
 } from "../types";
+import type { MicrosoftApiError } from "../../types";
 import { MICROSOFT_GRAPH_API, GONE_STATUS } from "../../shared/api";
 import { isAuthError, isSimpleAuthError } from "../../shared/errors";
 import { parseEventDateTime } from "../../shared/date-time";
